@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+.logo img {
+    width: 100px;
+    height: 130px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.info-block {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info-block h2 {
+    color: #333;
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.info-block h3 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.info-block h4 {
+    color: #777;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
+.photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+.competencies {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.competencies h3 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.competencies p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8;
+    columns: 2;
+    column-gap: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    margin-top: 10px;
+}
