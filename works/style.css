@@ -75,9 +75,9 @@ h1{
     height: 100%;
 }
 
-.github-text p {
+.github-text h3 {
     margin-top: 55px;
-    margin-bottom: 15px;
+    text-align: center;
     font-size: 18px;
     color: #333;
 }
